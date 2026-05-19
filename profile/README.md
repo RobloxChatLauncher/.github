@@ -1,7 +1,10 @@
 ﻿<div align="center">
   <p align="center">
-    <img src="https://github.com/RobloxChatLauncher/RobloxChatLauncher/raw/main/assets/brand/rcl_logo_dark.webp#gh-dark-mode-only" width="80%">
-    <img src="https://github.com/RobloxChatLauncher/RobloxChatLauncher/raw/main/assets/brand/rcl_logo_light.webp#gh-light-mode-only" width="80%">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://RobloxChatLauncher.onrender.com/api/v1/logo/dark">
+      <source media="(prefers-color-scheme: light)" srcset="https://RobloxChatLauncher.onrender.com/api/v1/logo/light">
+      <img alt="Logo" src="https://RobloxChatLauncher.onrender.com/api/v1/logo/light" width="80%">
+    </picture>
   </p>
 
   <p>Bring back co-op gameplay without giving away your biometric data</p>
